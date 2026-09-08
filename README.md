@@ -92,6 +92,9 @@ Githubpr1/
 |   |-- .env.local.example
 |   `-- package.json
 |
+|-- docs/
+|   `-- screenshots/
+|
 |-- .gitignore
 |-- README.md
 `-- START-HERE.txt
@@ -275,14 +278,20 @@ The deployed application should be tested with the following workflow:
 
 ## Application Screenshots
 
-The assessment requires screenshots in the README. Before final submission, add clear screenshots of:
+### Landing Page
+![TaskFlow landing page](docs/screenshots/01-landing-page.png)
 
-- Landing page / authentication screen
-- Normal user task board
-- Task creation and drag-and-drop board
-- Administrator dashboard and task assignment view
+### Login Page
+![TaskFlow login page](docs/screenshots/02-login-page.png)
 
-For a clean repository, place them under `docs/screenshots/` and embed them in this section.
+### Normal User Dashboard
+![TaskFlow normal user dashboard](docs/screenshots/03-normal-user-dashboard.png)
+
+### Task Board
+![TaskFlow drag-and-drop task board](docs/screenshots/04-task-board.png)
+
+### Administrator Dashboard
+![TaskFlow administrator dashboard](docs/screenshots/05-admin-dashboard.png)
 
 ## Submission Notes
 
